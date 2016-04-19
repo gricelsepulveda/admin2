@@ -2,40 +2,56 @@
 						<!--MENU DE SUBSECCIONES-->
 						<ul class="subseccion">
 							<a>
-								<li class="activo">Auspiciadores</li>
+								<li>Introducción</li>
+							</a>
+							<a>
+								<li class="activo">Miembros</li>
 							</a>
 						</ul>
+						<!--FIN MENU DE SUBSECCIONES-->
 						<!--MENU DE ITEMS-->
 						<ul class="item">
 							<a>
-								<li class="activo">Marcas</li>
+								<li class="activo">Lista de miembros</li>
 							</a>
 						</ul>
 						<!--FIN MENU DE ITEMS-->
 						<!--CONTENIDOS-->
 						<article class="contenido">
 							<div class="row no_margen">
-								<form name="auspiciadores">
+								<form name="equipo_miembros">
 									<p>Agrege nuevas marcas o modifique las existentes desde la siguiente tabla:</p>
 									<h1>Marcas</h1>
 									<div class="center-block">
 										<!--TABLA DE INFORMACION-->
 										<table class="table-condensed table-hover">
 											<tr>
-												<th>Enlace</th>
+												<th>Tipo</th>
+												<th>Cargo</th>
+												<th>Nombre</th>
+												<th>Correo</th>
 												<th>Imagen</th>
 												<th>Acciones</th>
 											</tr>
-											<!--DATOS MARCA-->
+											<!--DATOS MIEMBRO-->
 											<tr>
 												<td>
-													http://www.loremipsum.com
+													Directivo
+												</td>
+												<td>
+													Director
+												</td>
+												<td>
+													John Doe
+												</td>
+												<td>
+													lorem@ipsum.com
 												</td>
 												<td>
 													<img src="img/cc.png">
 												</td>
 												<td>
-													<button data-toggle="modal" data-target="#modal_auspiciador">
+													<button data-toggle="modal" data-target="#modal_miembro">
 														<img src="img/config_b.svg">
 													</button>
 													&nbsp;
@@ -44,17 +60,26 @@
 													</button>
 												</td>
 											</tr>
-											<!--FIN DATOS MARCA-->
-											<!--DATOS MARCA-->
+											<!--FIN DATOS MIEMBRO-->
+											<!--DATOS MIEMBRO-->
 											<tr>
 												<td>
-													http://www.loremipsum.com
+													Directivo
+												</td>
+												<td>
+													Editora
+												</td>
+												<td>
+													John Doe
+												</td>
+												<td>
+													lorem@ipsum.com
 												</td>
 												<td>
 													<img src="img/cc.png">
 												</td>
 												<td>
-													<button data-toggle="modal" data-target="#modal_auspiciador">
+													<button data-toggle="modal" data-target="#modal_miembro">
 														<img src="img/config_b.svg">
 													</button>
 													&nbsp;
@@ -63,15 +88,26 @@
 													</button>
 												</td>
 											</tr>
+											<!--FIN DATOS MIEMBRO-->
+											<!--DATOS MIEMBRO-->
 											<tr>
 												<td>
-													http://www.loremipsum.com
+													Común
 												</td>
 												<td>
-													<img src="img/cc.png">
+													Diseñadora
 												</td>
 												<td>
-													<button data-toggle="modal" data-target="#modal_auspiciador">
+													John Doe
+												</td>
+												<td>
+													lorem@ipsum.com
+												</td>
+												<td>
+													-
+												</td>
+												<td>
+													<button data-toggle="modal" data-target="#modal_miembro">
 														<img src="img/config_b.svg">
 													</button>
 													&nbsp;
@@ -80,27 +116,64 @@
 													</button>
 												</td>
 											</tr>
-											<!--FIN DATOS MARCA-->
+											<!--FIN DATOS MIEMBRO-->
+											<!--DATOS MIEMBRO-->
+											<tr>
+												<td>
+													Común
+												</td>
+												<td>
+													Fotografía USA
+												</td>
+												<td>
+													John Doe
+												</td>
+												<td>
+													lorem@ipsum.com
+												</td>
+												<td>
+													-
+												</td>
+												<td>
+													<button data-toggle="modal" data-target="#modal_miembro">
+														<img src="img/config_b.svg">
+													</button>
+													&nbsp;
+													<button>
+														<img src="img/borrar.svg">
+													</button>
+												</td>
+											</tr>
+											<!--FIN DATOS MIEMBRO-->
 										</table>
 										<!--TABLA DE INFORMACION-->
 									</div>
 								</form>
-								<form name="footer">
-									<button data-toggle="modal" data-target="#modal_auspiciador">
+								<form name="equipo_miembros">
+									<button data-toggle="modal" data-target="#modal_miembro">
 										<img src="img/agregar.svg">
 									</button>
 								</form>
 							</div>
-							<div class="modal fade" tabindex="-1" role="dialog" id="modal_auspiciador">
+							<div class="modal fade" tabindex="-1" role="dialog" id="modal_miembro">
 								<div class="modal-dialog">
 							    	<div class="modal-content">
 							    		<div class="modal-body">
 							    			<a type="button" class="close" data-dismiss="modal" aria-label="Close">
 							        			<span>&times;</span>
 							        		</a>
-							    			<label for="enlace" class="label">Asociar enlace</label>
-											<input type="text" id="enlace" class="form_item" placeholder="http://www.loremipsum.com">
-											<div class="fileinput fileinput-new" data-provides="fileinput">
+							        		<label for="tipo" class="label">Tipo</label>
+											<select id="tipo" class="form_item" placeholder="Directivo">
+												<option>Directivo</option>
+												<option>Común</option>
+											</select>
+											<label for="cargo" class="label">Cargo</label>
+											<input type="text" id="cargo" class="form_item" placeholder="Editora">
+							    			<label for="nombre" class="label">Nombre</label>
+											<input type="text" id="nombre" class="form_item" placeholder="John Doe">
+											<label for="email" class="label">Email</label>
+											<input type="email" id="email" class="form_item" placeholder="lorem@ipsum.com">
+											<div class="fileinput fileinput-new" data-provides="fileinput" class="imagen_subir">
 											 	<div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
 												<div>
 											    	<span class="btn btn-default btn-file jasny_btn">
@@ -131,5 +204,4 @@
 							</div>
 						</article>
 						<!--FIN CONTENIDOS-->
-					<!--FIN MENU DE SUBSECCIONES-->
 					</section>

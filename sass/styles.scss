@@ -117,10 +117,12 @@ body
 	    padding-left: 0;
 	}
 
-button, input, textarea, label //LIMPIAR PROPIEDADES PREDETERMINADAS
+button, input, textarea, label, option //LIMPIAR PROPIEDADES PREDETERMINADAS
 	{ 
 		box-shadow: none;
 		outline: none;
+		border-radius: 0;
+		background-color: $blanco;
 		@include cero;
 	}
 
@@ -601,7 +603,7 @@ button
 						text-align: justify;
 					}
 			}
-		input, textarea, .form_item 
+		input, textarea, .form_item, select
 			{
 				display: block;
 				margin-bottom: 0.5rem;
@@ -622,6 +624,7 @@ button
 						border: 1px solid $celeste;
 						outline: none;
     					box-shadow: 0 0 10px $celeste_claro;
+    					background-color: $blanco;
 					}
 				&::-webkit-input-placeholder 
 					{ 
@@ -700,9 +703,11 @@ button
 			}
 		table 
 			{
+				text-align: center;
 				th, tr, td
 					{
 						border: 1px solid $celeste_claro;
+
 					}
 				td > img 
 					{

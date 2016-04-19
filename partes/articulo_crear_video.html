@@ -1,0 +1,62 @@
+					<section class="main">
+						<!--MENU DE SUBSECCIONES-->
+						<ul class="subseccion">
+							<a>
+								<li class="activo">Crear artículo</li>
+							</a>
+							<a>
+								<li>Administrar artículos</li>
+							</a>
+							<a>
+								<li>Administrar categorías</li>
+							</a>
+						</ul>
+						<!--FIN MENU DE SUBSECCIONES-->
+						<!--MENU DE ITEMS-->
+						<ul class="item">
+							<a>
+								<li>Artículo (con imágenes)</li>
+							</a>
+							<a>
+								<li class="activo">Artículo (con video)</li>
+							</a>
+						</ul>
+						<!--FIN MENU DE ITEMS-->
+						<!--CONTENIDOS-->
+						<article class="contenido">
+							<div class="row no_margen">
+								<form name="articulo_video">
+									<label for="titulo">Título del artículo</label>
+									<input type="text" id="titulo" placeholder="Lorem ipsum dolorem asimet">
+									<label for="texto">Texto del artículo</label>
+									<textarea rows="10" id="texto" placeholder="Lorem ipsum dolor asimet..."></textarea>
+									<label for="categoria">Categoría del artículo</label>
+									<select id="categoria" placeholder"sin categoria">
+										<option>Categoría #1</option>
+										<option>Categoría #2</option>
+										<option>Categoría #3</option>
+										<option>Categoría #4</option>
+										<option>Categoría #5</option>
+									</select>
+									<h1>¿Destacar?</h1>
+									<input type="radio" name="destacar" value="si">si</br>
+									<input type="radio" name="destacar" value="no">no</br>
+								</form>
+								<form name="articulo_video">
+									<h1>Agregar Video</h1>
+									<p>Para agregar un video proporcione el enlace de youtube y verifique que el video que desea insertar posee permiso para ser compartido en sitios externos a youtube.com</p>
+									<label for="enlace">Enlace de youtube</label>
+									<input type="link" id="enlace" placeholder="http://youtu.be/ejemplo">
+								</form>
+								<nav>
+									<form name="articulo_video" class="guardar">
+										<button  type="button"><!--BOTON GUARDAR-->
+											<img src="img/guardar.svg">
+											guardar cambios
+										</button>
+									</form>
+								</nav>
+							</div>
+						</article>
+						<!--FIN CONTENIDOS-->
+					</section>

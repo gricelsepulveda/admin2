@@ -1,0 +1,268 @@
+					<section class="main">
+						<!--MENU DE SUBSECCIONES-->
+						<ul class="subseccion">
+							<a>
+								<li>Crear artículo</li>
+							</a>
+							<a>
+								<li class="activo">Administrar artículos</li>
+							</a>
+							<a>
+								<li>Administrar categorías</li>
+							</a>
+						</ul>
+						<!--FIN MENU DE SUBSECCIONES-->
+						<!--MENU DE ITEMS-->
+						<ul class="item">
+							<a>
+								<li class="activo">Listado de artículos publicados</li>
+							</a>
+						</ul>
+						<!--FIN MENU DE ITEMS-->
+						<!--CONTENIDOS-->
+						<article class="contenido">
+							<div class="row no_margen">
+								<form name="articulos_publicados" id="ancho">
+									<p>Modifigue o elimine artículos publicados:</p>
+									<h1>Lista</h1>
+									<!--TABLA DE INFORMACION-->
+									<table class="table-condensed table-hover">
+										<tr>
+											<th>Categoria</th>
+											<th>Nombre</th>
+											<th>Fecha</th>
+											<th>Imagen o video principal</th>
+											<th>Estado</th>
+											<th>Acciones</th>
+										</tr>
+										<!--DATOS ARTICULO-->
+										<tr>
+											<td>
+												Polo
+											</td>
+											<td>
+												Título del artículo
+											</td>
+											<td>
+												16/07/1990
+											</td>
+											<td>
+												<img src="img/cc.png">
+											</td>
+											<td>
+												destacado
+											</td>
+											<td>
+												<button type="button" data-toggle="modal" data-target="#modal_articulo">
+													<img src="img/config_b.svg">
+												</button>
+												&nbsp;
+												<button>
+													<img src="img/borrar.svg">
+												</button>
+											</td>
+										</tr>
+										<!--FIN DATOS ARTICULO-->
+										<!--DATOS ARTICULO-->
+										<tr>
+											<td>
+												Polo
+											</td>
+											<td>
+												Título del artículo
+											</td>
+											<td>
+												15/07/1990
+											</td>
+											<td>
+												<img src="img/cc.png">
+											</td>
+											<td>
+												no destacado
+											</td>
+											<td>
+												<button type="button" data-toggle="modal" data-target="#modal_articulo">
+													<img src="img/config_b.svg">
+												</button>
+												&nbsp;
+												<button>
+													<img src="img/borrar.svg">
+												</button>
+											</td>
+										</tr>
+										<!--FIN DATOS ARTICULO-->
+										<!--DATOS ARTICULO-->
+										<tr>
+											<td>
+												Otros deportes
+											</td>
+											<td>
+												Título del artículo
+											</td>
+											<td>
+												14/07/1990
+											</td>
+											<td>
+												<img src="img/cc.png">
+											</td>
+											<td>
+												no destacado
+											</td>
+											<td>
+												<button type="button" data-toggle="modal" data-target="#modal_articulo">
+													<img src="img/config_b.svg">
+												</button>
+												&nbsp;
+												<button>
+													<img src="img/borrar.svg">
+												</button>
+											</td>
+										</tr>
+										<!--FIN DATOS ARTICULO-->
+									</table>
+									<!--TABLA DE INFORMACION-->
+								</form>
+							</div>
+							<div class="modal fade" tabindex="-1" role="dialog" id="modal_articulo">
+								<div class="modal-dialog">
+							    	<div class="modal-content">
+							    		<div class="modal-body">
+							    			<a type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        			<span>&times;</span>
+							        		</a>
+											<label for="titulo">Título del artículo</label>
+											<input type="text" id="titulo" placeholder="Lorem ipsum dolorem asimet">
+											<label for="texto">Texto del artículo</label>
+											<textarea rows="10" id="texto" placeholder="Lorem ipsum dolor asimet..."></textarea>
+											<label for="categoria">Categoría del artículo</label>
+											<select id="categoria" placeholder"sin categoria">
+												<option>Categoría #1</option>
+												<option>Categoría #2</option>
+												<option>Categoría #3</option>
+												<option>Categoría #4</option>
+												<option>Categoría #5</option>
+											</select>
+											<h1>¿Destacar?</h1>
+											<input type="radio" name="destacar" value="si">si</br>
+											<input type="radio" name="destacar" value="no">no</br>
+											</br></br/>
+											<h1>Video</h1>
+											<h1>Agregar Video</h1>
+											<p>Para agregar un video proporcione el enlace de youtube y verifique que el video que desea insertar posee permiso para ser compartido en sitios externos a youtube.com</p>
+											<label for="enlace">Enlace de youtube</label>
+											<input type="link" id="enlace" placeholder="http://youtu.be/ejemplo">
+											</br></br/>
+											<h1>Imágenes</h1>
+											<p>Imagen destacada</p>
+											<div class="fileinput fileinput-new" data-provides="fileinput">
+											 	<div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+												<div>
+											    	<span class="btn btn-default btn-file jasny_btn">
+											    		<span class="fileinput-new">
+											    			<img src="img/subir_imagen.svg">
+											    		</span>
+											    		<span class="fileinput-exists">
+											    			<img src="img/cambiar.svg">
+											    		</span>
+											    		<input type="file" name="...">
+											    	</span>
+											    	<span class="fileinput-exists jasny_btn2" data-dismiss="fileinput">
+											    		<span class="jasny_btn2">
+											    			<img src="img/borrar.svg">
+											    		</span>
+											    	</span>
+		                                    	</div>
+											</div>
+											<p>Imágen normal 1</p>
+											<div class="fileinput fileinput-new" data-provides="fileinput">
+											 	<div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+												<div>
+											    	<span class="btn btn-default btn-file jasny_btn">
+											    		<span class="fileinput-new">
+											    			<img src="img/subir_imagen.svg">
+											    		</span>
+											    		<span class="fileinput-exists">
+											    			<img src="img/cambiar.svg">
+											    		</span>
+											    		<input type="file" name="...">
+											    	</span>
+											    	<span class="fileinput-exists jasny_btn2" data-dismiss="fileinput">
+											    		<span class="jasny_btn2">
+											    			<img src="img/borrar.svg">
+											    		</span>
+											    	</span>
+		                                    	</div>
+											</div>
+											<p>Imágen normal 2</p>
+											<div class="fileinput fileinput-new" data-provides="fileinput">
+											 	<div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+												<div>
+											    	<span class="btn btn-default btn-file jasny_btn">
+											    		<span class="fileinput-new">
+											    			<img src="img/subir_imagen.svg">
+											    		</span>
+											    		<span class="fileinput-exists">
+											    			<img src="img/cambiar.svg">
+											    		</span>
+											    		<input type="file" name="...">
+											    	</span>
+											    	<span class="fileinput-exists jasny_btn2" data-dismiss="fileinput">
+											    		<span class="jasny_btn2">
+											    			<img src="img/borrar.svg">
+											    		</span>
+											    	</span>
+		                                    	</div>
+											</div>
+											<p>Imágen normal 3</p>
+											<div class="fileinput fileinput-new" data-provides="fileinput">
+											 	<div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+												<div>
+											    	<span class="btn btn-default btn-file jasny_btn">
+											    		<span class="fileinput-new">
+											    			<img src="img/subir_imagen.svg">
+											    		</span>
+											    		<span class="fileinput-exists">
+											    			<img src="img/cambiar.svg">
+											    		</span>
+											    		<input type="file" name="...">
+											    	</span>
+											    	<span class="fileinput-exists jasny_btn2" data-dismiss="fileinput">
+											    		<span class="jasny_btn2">
+											    			<img src="img/borrar.svg">
+											    		</span>
+											    	</span>
+		                                    	</div>
+											</div>
+											<p>Imágen normal 4</p>
+											<div class="fileinput fileinput-new" data-provides="fileinput">
+											 	<div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+												<div>
+											    	<span class="btn btn-default btn-file jasny_btn">
+											    		<span class="fileinput-new">
+											    			<img src="img/subir_imagen.svg">
+											    		</span>
+											    		<span class="fileinput-exists">
+											    			<img src="img/cambiar.svg">
+											    		</span>
+											    		<input type="file" name="...">
+											    	</span>
+											    	<span class="fileinput-exists jasny_btn2" data-dismiss="fileinput">
+											    		<span class="jasny_btn2">
+											    			<img src="img/borrar.svg">
+											    		</span>
+											    	</span>
+		                                    	</div>
+											</div>
+							      		</div>
+								      	<div class="modal-footer">
+											<button  type="button"><!--BOTON GUARDAR-->
+												<img src="img/guardar.svg">
+												guardar cambios
+											</button>
+								      	</div>
+							    	</div>
+								</div>
+							</div>
+						</article>
+						<!--FIN CONTENIDOS-->
+					</section>

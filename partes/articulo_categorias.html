@@ -1,0 +1,95 @@
+					<section class="main">
+						<!--MENU DE SUBSECCIONES-->
+						<ul class="subseccion">
+							<a>
+								<li>Crear artículo</li>
+							</a>
+							<a>
+								<li>Administrar artículos</li>
+							</a>
+							<a>
+								<li class="activo">Administrar categorías</li>
+							</a>
+						</ul>
+						<!--FIN MENU DE SUBSECCIONES-->
+						<!--MENU DE ITEMS-->
+						<ul class="item">
+							<a>
+								<li class="activo">Listado de categorías existentes</li>
+							</a>
+						</ul>
+						<!--FIN MENU DE ITEMS-->
+						<!--CONTENIDOS-->
+						<article class="contenido">
+							<div class="row no_margen">
+								<form name="articulos_categorias">
+									<p>Revise o elimine categorías. Cree nuevas si es necesario con el boton agregar al costado izquierdo</p>
+									<h1>Lista</h1>
+									<!--TABLA DE INFORMACION-->
+									<table class="table-condensed table-hover">
+										<tr>
+											<th>Categoria</th>
+											<th>Cantidad de artículos</th>
+											<th>Acciones</th>
+										</tr>
+										<!--DATOS CATEGORIA-->
+										<tr>
+											<td>
+												Polo
+											</td>
+											<td>
+												234
+											</td>
+											<td>
+												<button>
+													<img src="img/borrar.svg">
+												</button>
+											</td>
+										</tr>
+										<!--FIN DATOS CATEGORIA-->
+										<!--DATOS CATEGORIA-->
+										<tr>
+											<td>
+												Otros deportes
+											</td>
+											<td>
+												234
+											</td>
+											<td>
+												<button>
+													<img src="img/borrar.svg">
+												</button>
+											</td>
+										</tr>
+										<!--FIN DATOS CATEGORIA-->
+									</table>
+									<!--TABLA DE INFORMACION-->
+								</form>
+								<form name="articulos_categoria">
+									<button type="button" data-toggle="modal" data-target="#modal_categoria">
+										<img src="img/agregar.svg">
+									</button>
+								</form>
+							</div>
+							<div class="modal fade" tabindex="-1" role="dialog" id="modal_categoria">
+								<div class="modal-dialog">
+							    	<div class="modal-content">
+							    		<div class="modal-body">
+							    			<a type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        			<span>&times;</span>
+							        		</a>
+							    			<label for="categoria" class="label">Crear una nueva categoria:</label>
+											<input type="text" id="categoria" class="form_item" placeholder="nombre de la categoria">
+							      		</div>
+								      	<div class="modal-footer">
+											<button><!--BOTON GUARDAR-->
+												<img src="img/guardar.svg">
+												guardar cambios
+											</button>
+								      	</div>
+							    	</div>
+								</div>
+							</div>
+						</article>
+						<!--FIN CONTENIDOS-->
+					</section>

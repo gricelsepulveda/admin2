@@ -546,6 +546,18 @@ button
 							}
 					}
 			}
+						#ancho {
+					@extend .col-xs-9;
+					@extend .col-sm-10;
+					@extend .col-md-10;
+					@extend .col-lg-10;
+				}
+				#angosto {
+					@extend .col-xs-3;
+					@extend .col-sm-2;
+					@extend .col-md-2;
+					@extend .col-lg-2;
+				}
 		label, .label
 			{
 				display: block;
@@ -651,6 +663,12 @@ button
 						letter-spacing: 1px;
 					}
 			}
+			input[type=radio]
+				{
+					display: inline-block;
+					width: auto;
+					margin-right: 0.5rem;
+			}
 		button
 			{
 				background-color: $naranjo;
@@ -696,6 +714,23 @@ button
 							}
 					}
 			}
+			.anchito 
+				{
+					margin-top: 3px;
+					width: auto;
+					height: 2.5rem;
+					color: $blanco;
+					text: 
+						{ 
+							align: left;
+							transform: uppercase;
+						}
+					padding: 0.5rem;
+					img 
+						{
+							margin-right: 0.5rem;
+						}
+				}
 		.center-block
 			{
 				max-width: 100%;

@@ -544,116 +544,224 @@ button
 							}
 					}
 			}
-			label
-				{
-					display: block;
-					color: $negro;
-					margin-bottom: 0.5rem;
-					text: 
-						{
-							align: left;
-						}
-					font: 
-						{
-							size: 0.7rem;
-							weight: 400;
-						}
-					@media #{$sm}
-						{
-							text-align: center;
-						}
-				}
-			input, textarea 
-				{
-					display: block;
-					margin-bottom: 0.5rem;
-					width: 100%;
-					padding: 0.25rem;
-					border: 1px solid $gris;
-					font: 
-						{
-							size: 0.7rem;
-							weight: 700;
-						}
-					color: $negro;
-					letter-spacing: 1px;
-					&:focus
-						{
-							color: $negro;
-							font-weight: 400;
-							border: 1px solid $celeste;
-							outline: none;
-    						box-shadow: 0 0 10px $celeste_claro;
-						}
-					&::-webkit-input-placeholder 
-						{ 
-							color: $gris; 
-							font-style: italic;
-							letter-spacing: 1px;
-						}
-					&::-moz-placeholder 
-						{ 
-							color: $gris;
-							font-style: italic;
-							letter-spacing: 1px;
-						}
-					&:-ms-input-placeholder 
-						{ 
-							color: $gris;
-							font-style: italic;
-							letter-spacing: 1px;
-						 }
-					input:-moz-placeholder 
-						{ 
-							color: $gris;
-							font-style: italic;
-							letter-spacing: 1px;
-						}
-				}
-			button
-				{
-					background-color: $naranjo;
-					img
-						{
-							height: 50%;
-						}
-					&:hover
-						{
-							background-color: $celeste;
-						}
-					@include animar;
-				}
-			nav 
-				{
-					@extend .col-xs-12;
-					@extend .col-sm-12;
-					@extend .col-md-12;
-					@extend .col-lg-12;
-					padding: 0.5rem;
-					text-align: center;
-					.guardar 
-						{
-							@extend .col-xs-12;
-							@extend .col-sm-12;
-							@extend .col-md-12;
-							@extend .col-lg-12;
-							button 
-								{
-									width: auto;
-									height: 2.5rem;
-									color: $blanco;
-									text: 
-										{ 
-											align: left;
-											transform: uppercase;
-										}
-									padding: 0.5rem;
-									img {
+		label, .label
+			{
+				display: block;
+				color: $negro;
+				margin-bottom: 0.5rem;
+				text: 
+					{
+						align: left;
+					}
+				font: 
+					{
+						size: 0.7rem;
+						weight: 400;
+					}
+				@media #{$sm}
+					{
+						text-align: center;
+					}
+			}
+		p, .p
+			{
+				display: block;
+				color: $negro;
+				margin-bottom: 0.5rem;
+				text: 
+					{
+						align: left;
+					}
+				font: 
+					{
+						size: 0.7rem;
+						weight: 400;
+					}
+				@media #{$sm}
+					{
+						text-align: justify;
+					}
+			}
+		h1
+			{
+				display: block;
+				color: $negro;
+				margin-bottom: 0.5rem;
+				text: 
+					{
+						align: left;
+					}
+				font: 
+					{
+						size: 0.7rem;
+						weight: 600;
+					}
+				@media #{$sm}
+					{
+						text-align: justify;
+					}
+			}
+		input, textarea, .form_item 
+			{
+				display: block;
+				margin-bottom: 0.5rem;
+				width: 100%;
+				padding: 0.25rem;
+				border: 1px solid $gris;
+				font: 
+					{
+						size: 0.7rem;
+						weight: 700;
+					}
+				color: $negro;
+				letter-spacing: 1px;
+				&:focus
+					{
+						color: $negro;
+						font-weight: 400;
+						border: 1px solid $celeste;
+						outline: none;
+    					box-shadow: 0 0 10px $celeste_claro;
+					}
+				&::-webkit-input-placeholder 
+					{ 
+						color: $gris; 
+						font-style: italic;
+						letter-spacing: 1px;
+					}
+				&::-moz-placeholder 
+					{ 
+						color: $gris;
+						font-style: italic;
+						letter-spacing: 1px;
+					}
+				&:-ms-input-placeholder 
+					{ 
+						color: $gris;
+						font-style: italic;
+						letter-spacing: 1px;
+					}
+				input:-moz-placeholder 
+					{ 
+						color: $gris;
+						font-style: italic;
+						letter-spacing: 1px;
+					}
+			}
+		button
+			{
+				background-color: $naranjo;
+				img
+					{
+						height: 50%;
+					}
+				&:hover
+					{
+						background-color: $celeste;
+					}
+				@include animar;
+			}
+		nav 
+			{
+				@extend .col-xs-12;
+				@extend .col-sm-12;
+				@extend .col-md-12;
+				@extend .col-lg-12;
+				padding: 0.5rem;
+				text-align: center;
+				.guardar 
+					{
+						@extend .col-xs-12;
+						@extend .col-sm-12;
+						@extend .col-md-12;
+						@extend .col-lg-12;
+						button 
+							{
+								width: auto;
+								height: 2.5rem;
+								color: $blanco;
+								text: 
+									{ 
+										align: left;
+										transform: uppercase;
+									}
+								padding: 0.5rem;
+								img 
+									{
 										margin-right: 0.5rem;
 									}
-								}
-						}
-				}
+							}
+					}
+			}
+		.center-block
+			{
+				max-width: 100%;
+				overflow-y: scroll;
+			}
+		table 
+			{
+				th, tr, td
+					{
+						border: 1px solid $celeste_claro;
+					}
+				td > img 
+					{
+						min-height: 25px;
+						max-height: 25px;
+					}
+				vertical-align: middle;
+			}
+		.modal 
+			{
+				.modal-content
+					{
+						border: 1px solid $celeste_claro;
+						outline: none;
+    					box-shadow: 0 0 10px $celeste_claro;
+    					padding: 0.5rem;
+    					border-radius: 0.5rem;
+    					a
+    						{
+    							display: inline-block;
+    							position: absolute;
+    							right: 0.25rem;
+    							top: 0.25rem;
+    							color: $naranjo;
+    							opacity: 100;
+    							z-index: 3;
+    							&:hover 
+    								{
+    									color: $celeste;
+    								}
+    						}
+    					label 
+    						{
+    							@include cero;
+    							margin-bottom: 0.5rem;
+    						}
+					}
+				.modal-footer
+					{
+						border-top: 0;
+						text-align: center;
+						button 
+							{
+								width: auto;
+								height: 2.5rem;
+								color: $blanco;
+								text: 
+									{ 
+										align: left;
+										transform: uppercase;
+									}
+								padding: 0.5rem;
+								img
+									{
+										margin-right: 0.5rem;
+									}
+							}
+					}
+			}
 	}
 
 //JASNY CUSTOM

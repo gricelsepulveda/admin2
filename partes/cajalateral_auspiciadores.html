@@ -1,0 +1,123 @@
+						<!--MENU DE ITEMS-->
+						<ul class="item">
+							<a>
+								<li class="activo">Marcas</li>
+							</a>
+						</ul>
+						<!--FIN MENU DE ITEMS-->
+						<!--CONTENIDOS-->
+						<article class="contenido">
+							<div class="row no_margen">
+								<form name="auspiciadores">
+									<p>Agrege nuevas marcas o modifique las existentes desde la siguiente tabla:</p>
+									<h1>Marcas</h1>
+									<div class="center-block">
+										<!--TABLA DE INFORMACION-->
+										<table class="table-condensed table-hover">
+											<tr>
+												<th>Enlace</th>
+												<th>Imagen</th>
+												<th>Acciones</th>
+											</tr>
+											<!--DATOS MARCA-->
+											<tr>
+												<td>
+													http://www.loremipsum.com
+												</td>
+												<td>
+													<img src="img/cc.png">
+												</td>
+												<td>
+													<button data-toggle="modal" data-target="#modal_auspiciador">
+														<img src="img/config_b.svg">
+													</button>
+													<button>
+														<img src="img/borrar.svg">
+													</button>
+												</td>
+											</tr>
+											<!--FIN DATOS MARCA-->
+											<!--DATOS MARCA-->
+											<tr>
+												<td>
+													http://www.loremipsum.com
+												</td>
+												<td>
+													<img src="img/cc.png">
+												</td>
+												<td>
+													<button data-toggle="modal" data-target="#modal_auspiciador">
+														<img src="img/config_b.svg">
+													</button>
+													<button>
+														<img src="img/borrar.svg">
+													</button>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													http://www.loremipsum.com
+												</td>
+												<td>
+													<img src="img/cc.png">
+												</td>
+												<td>
+													<button data-toggle="modal" data-target="#modal_auspiciador">
+														<img src="img/config_b.svg">
+													</button>
+													<button>
+														<img src="img/borrar.svg">
+													</button>
+												</td>
+											</tr>
+											<!--FIN DATOS MARCA-->
+										</table>
+										<!--TABLA DE INFORMACION-->
+									</div>
+								</form>
+								<form name="footer">
+									<button data-toggle="modal" data-target="#modal_auspiciador">
+										<img src="img/agregar.svg">
+									</button>
+								</form>
+							</div>
+							<div class="modal fade" tabindex="-1" role="dialog" id="modal_auspiciador">
+								<div class="modal-dialog">
+							    	<div class="modal-content">
+							    		<div class="modal-body">
+							    			<a type="button" class="close" data-dismiss="modal" aria-label="Close">
+							        			<span>&times;</span>
+							        		</a>
+							    			<label for="enlace" class="label">Asociar enlace</label>
+											<input type="text" id="enlace" class="form_item" placeholder="http://www.loremipsum.com">
+											<div class="fileinput fileinput-new" data-provides="fileinput">
+											 	<div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
+												<div>
+											    	<span class="btn btn-default btn-file jasny_btn">
+											    		<span class="fileinput-new">
+											    			<img src="img/subir_imagen.svg">
+											    		</span>
+											    		<span class="fileinput-exists">
+											    			<img src="img/cambiar.svg">
+											    		</span>
+											    		<input type="file" name="...">
+											    	</span>
+											    	<span class="fileinput-exists jasny_btn2" data-dismiss="fileinput">
+											    		<span class="jasny_btn2">
+											    			<img src="img/borrar.svg">
+											    		</span>
+											    	</span>
+		                                    	</div>
+											</div>
+							      		</div>
+								      	<div class="modal-footer">
+											<button><!--BOTON GUARDAR-->
+												<img src="img/guardar.svg">
+												guardar cambios
+											</button>
+								      	</div>
+							    	</div>
+								</div>
+							</div>
+						</article>
+						<!--FIN CONTENIDOS-->

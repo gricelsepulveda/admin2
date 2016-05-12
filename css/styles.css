@@ -8962,3 +8962,149 @@ table button {
   float: left;
   margin: 1px;
 }
+
+/* line 1047, ../sass/styles.scss */
+.login {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+/* line 1056, ../sass/styles.scss */
+.login span {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  background-color: #fe5f5b;
+  text-transform: uppercase;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+@media (max-width: 991px) {
+  /* line 1047, ../sass/styles.scss */
+  .login {
+    width: 75%;
+  }
+}
+/* line 1071, ../sass/styles.scss */
+.login form {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #e9e5e6;
+}
+/* line 1078, ../sass/styles.scss */
+.login input {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+  border: 1px solid #e9e5e6;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #313131;
+  letter-spacing: 1px;
+}
+@media (max-width: 991px) {
+  /* line 1078, ../sass/styles.scss */
+  .login input {
+    width: 100%;
+  }
+}
+/* line 1097, ../sass/styles.scss */
+.login input:focus {
+  color: #313131;
+  font-weight: 400;
+  border: 1px solid #4dd5e7;
+  outline: none;
+  box-shadow: 0 0 10px #9ae3ed;
+  background-color: #ffffff;
+}
+/* line 1106, ../sass/styles.scss */
+.login input::-webkit-input-placeholder {
+  color: #e9e5e6;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+/* line 1112, ../sass/styles.scss */
+.login input::-moz-placeholder {
+  color: #e9e5e6;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+/* line 1118, ../sass/styles.scss */
+.login input:-ms-input-placeholder {
+  color: #e9e5e6;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+/* line 1124, ../sass/styles.scss */
+.login input input:-moz-placeholder {
+  color: #e9e5e6;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/* line 1133, ../sass/styles.scss */
+.entrar {
+  width: auto;
+  display: inline-block;
+  height: 2.5rem;
+  background-color: #4dd5e7;
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+}
+/* line 1146, ../sass/styles.scss */
+.entrar img {
+  margin-right: 0.5rem;
+  position: relative;
+  height: 50%;
+}
+/* line 1152, ../sass/styles.scss */
+.entrar:hover {
+  background-color: #9ae3ed;
+}
+
+/* line 1159, ../sass/styles.scss */
+.footer_login {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+/* line 1163, ../sass/styles.scss */
+.footer_login p {
+  display: block;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  font-size: 0.5rem;
+  font-weight: 200;
+  font-color: #313131;
+}
+/* line 1174, ../sass/styles.scss */
+.footer_login a {
+  text-decoration: underline;
+}
+/* line 1178, ../sass/styles.scss */
+.footer_login img {
+  width: 100px;
+  margin-top: 1rem;
+}
+@media (max-width: 340px) {
+  /* line 1178, ../sass/styles.scss */
+  .footer_login img {
+    width: 50px;
+  }
+}
+/* line 1186, ../sass/styles.scss */
+.footer_login img:last-of-type {
+  width: 50px;
+  margin-top: 0.5rem;
+}

@@ -1042,3 +1042,153 @@ table
 	}
 }
 
+//LOGIN
+
+.login
+{
+	display: block;
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	background-color: $blanco;
+	border-radius: 0.5rem;
+	text-align: center;
+	span
+	{
+		width: 100%;
+		padding: 1rem;
+		text-align: center;
+		display: block;
+		color: $blanco;
+		background-color: $naranjo;
+		text-transform: uppercase;
+		border-radius: 0.5rem 0.5rem 0rem 0rem;
+	}
+	@media #{$sm}
+	{
+		width: 75%;
+	}
+	form
+	{
+		width: 100%;
+		padding: 1rem;
+		text-align: center;
+		border-bottom: 1px solid $gris;
+	}
+	input
+	{
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+		margin-bottom: 0.5rem;
+		padding: 0.25rem;
+		border: 1px solid $gris;
+		font: 
+		{
+			size: 0.7rem;
+			weight: 700;
+		}
+		color: $negro;
+		letter-spacing: 1px;
+		@media #{$sm}
+		{
+			width: 100%;
+		}
+		&:focus
+		{
+			color: $negro;
+			font-weight: 400;
+			border: 1px solid $celeste;
+			outline: none;
+    		box-shadow: 0 0 10px $celeste_claro;
+    		background-color: $blanco;
+		}
+		&::-webkit-input-placeholder 
+		{ 
+			color: $gris; 
+			font-style: italic;
+			letter-spacing: 1px;
+		}
+		&::-moz-placeholder 
+		{ 
+			color: $gris;
+			font-style: italic;
+			letter-spacing: 1px;
+		}
+		&:-ms-input-placeholder 
+		{ 
+			color: $gris;
+			font-style: italic;
+			letter-spacing: 1px;
+		}
+		input:-moz-placeholder 
+		{ 
+			color: $gris;
+			font-style: italic;
+			letter-spacing: 1px;
+		}
+	}
+}
+
+.entrar
+{
+	width: auto;
+	display: inline-block;
+	height: 2.5rem;
+	background-color: $celeste;
+	color: $blanco;
+	text: 
+	{ 
+		align: left;
+		transform: uppercase;
+	}
+	padding: 0.5rem;
+	img
+	{
+		margin-right: 0.5rem;
+		position: relative;
+		height: 50%;
+	}
+	&:hover
+	{
+		background-color: $celeste_claro;
+	}
+	@include animar;
+}
+
+.footer_login
+{
+	padding-bottom: 2rem;
+	text-align: center;
+		p
+			{
+				display: block;
+				padding: 0rem 0.5rem 0rem 0.5rem;
+				font: 
+					{
+						size: 0.5rem;
+						weight: 200;
+						color: $negro;
+					}
+			}
+		a 
+			{
+				text-decoration: underline;
+			}
+		img 
+			{
+				width: 100px;
+				margin-top: 1rem;
+				@media #{$xxs}
+					{
+						width: 50px;
+					}
+				&:last-of-type
+					{
+						width: 50px;
+						margin-top: 0.5rem;
+					}
+			}
+}
+
+

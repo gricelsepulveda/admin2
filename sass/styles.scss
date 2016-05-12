@@ -736,21 +736,26 @@ button
 				max-width: 100%;
 				overflow-y: scroll;
 			}
+		.overflow
+		{
+			position: relative;
+			display: block;
+			overflow-x: scroll;
+		}
 		table 
+		{
+			text-align: center;
+			th, tr, td
+				{
+					border: 1px solid $celeste_claro;
+				}
+			td > img 
 			{
-				text-align: center;
-				th, tr, td
-					{
-						border: 1px solid $celeste_claro;
-
-					}
-				td > img 
-					{
-						min-height: 25px;
-						max-height: 25px;
-					}
-				vertical-align: middle;
+				min-height: 25px;
+				max-height: 25px;
 			}
+			vertical-align: middle;
+		}
 		.modal 
 			{
 				.modal-content
@@ -801,8 +806,90 @@ button
 									}
 							}
 					}
+				form
+				{
+					@extend .col-xs-12;
+					@extend .col-sm-12;
+					@extend .col-md-12;
+					@extend .col-lg-12;
+					padding: 0;
+					.guardar
+					{
+						width: auto;
+						height: 2.5rem;
+						color: $blanco;
+						margin-bottom: 1rem;
+						text: 
+						{ 
+							align: left;
+							transform: uppercase;
+						}
+						padding: 0.5rem;
+						img
+						{
+							margin-right: 0.5rem;
+						}
+					}
+				}
 			}
 	}
+
+//GESTION DE IMAGENES
+
+.imagenes_lista
+{
+	display: block;
+	width: 100%;
+	li 
+	{
+		display: inline-block;
+		max-width: 19%;
+		background-color: $celeste_claro;
+		color: $blanco;
+		margin-right: 1px;
+		overflow: hidden;
+		cursor: pointer;
+		padding: 0.5rem;
+		line-height: 0.65rem;
+		font: 
+		{
+			size: 0.7rem;
+			weight: 400;
+		}
+		text: 
+		{
+			align: center;
+			transform: uppercase;
+		}
+		&:hover
+		{
+			background-color: $celeste;
+			color: $blanco;
+		}
+		@include animar;
+	}
+	.activo
+	{
+		background-color: $celeste;
+	}
+}
+
+.cnt_form_imagenes
+{
+	width: 100%;
+	height: auto;
+}
+
+.imagen_destacada
+{
+	display: block;
+}
+.imagen_1, .imagen_2, .imagen_3, .imagen_4
+{
+	display: none;
+}
+
+
 
 //JASNY CUSTOM
 
@@ -938,4 +1025,20 @@ footer
 					}
 			}
 	}
+
+//ACCIONES ARTICULOS PUBLICADOS
+
+table
+{
+
+	button
+	{
+		width: 1.5rem;
+		height: 1.5rem;
+		border: none;
+		display: inline-block;
+		float: left;
+		margin: 1px;
+	}
+}
 

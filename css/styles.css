@@ -2105,7 +2105,7 @@ pre code {
 }
 
 /* line 11, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .contenido #angosto, .col-md-2, .contenido #angosto, .col-lg-2, .contenido #angosto, .col-xs-3, .contenido #angosto, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-lg-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .contenido #ancho, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .contenido #ancho, .col-md-10, .contenido #ancho, .col-lg-10, .contenido #ancho, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .col-sm-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .col-md-12, .contenido nav, .contenido nav .guardar, .col-lg-12, .contenido nav, .contenido nav .guardar {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .contenido #angosto, .col-md-2, .contenido #angosto, .col-lg-2, .contenido #angosto, .col-xs-3, .contenido #angosto, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-lg-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .contenido #ancho, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .contenido #ancho, .col-md-10, .contenido #ancho, .col-lg-10, .contenido #ancho, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .contenido .modal form, .col-sm-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .contenido .modal form, .col-md-12, .contenido nav, .contenido nav .guardar, .contenido .modal form, .col-lg-12, .contenido nav, .contenido nav .guardar, .contenido .modal form {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2113,7 +2113,7 @@ pre code {
 }
 
 /* line 27, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .contenido #angosto, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .contenido #ancho, .col-xs-10, .col-xs-11, .col-xs-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar {
+.col-xs-1, .col-xs-2, .col-xs-3, .contenido #angosto, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .contenido #ancho, .col-xs-10, .col-xs-11, .col-xs-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .contenido .modal form {
   float: left;
 }
 
@@ -2173,7 +2173,7 @@ pre code {
 }
 
 /* line 35, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar {
+.col-xs-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .contenido .modal form {
   width: 100%;
 }
 
@@ -2374,7 +2374,7 @@ pre code {
 
 @media (min-width: 768px) {
   /* line 27, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .contenido #angosto, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .contenido #ancho, .col-sm-11, .col-sm-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar {
+  .col-sm-1, .col-sm-2, .contenido #angosto, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .contenido #ancho, .col-sm-11, .col-sm-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .contenido .modal form {
     float: left;
   }
 
@@ -2434,7 +2434,7 @@ pre code {
   }
 
   /* line 35, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar {
+  .col-sm-12, .contenido form:first-of-type, .contenido form:last-of-type, .contenido nav, .contenido nav .guardar, .contenido .modal form {
     width: 100%;
   }
 
@@ -2635,7 +2635,7 @@ pre code {
 }
 @media (min-width: 992px) {
   /* line 27, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .contenido #angosto, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .contenido #ancho, .col-md-11, .col-md-12, .contenido nav, .contenido nav .guardar {
+  .col-md-1, .col-md-2, .contenido #angosto, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .contenido #ancho, .col-md-11, .col-md-12, .contenido nav, .contenido nav .guardar, .contenido .modal form {
     float: left;
   }
 
@@ -2695,7 +2695,7 @@ pre code {
   }
 
   /* line 35, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-12, .contenido nav, .contenido nav .guardar {
+  .col-md-12, .contenido nav, .contenido nav .guardar, .contenido .modal form {
     width: 100%;
   }
 
@@ -2896,7 +2896,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   /* line 27, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-1, .col-lg-2, .contenido #angosto, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .contenido #ancho, .col-lg-11, .col-lg-12, .contenido nav, .contenido nav .guardar {
+  .col-lg-1, .col-lg-2, .contenido #angosto, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .contenido form:first-of-type, .contenido form:last-of-type, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .contenido #ancho, .col-lg-11, .col-lg-12, .contenido nav, .contenido nav .guardar, .contenido .modal form {
     float: left;
   }
 
@@ -2956,7 +2956,7 @@ pre code {
   }
 
   /* line 35, ../../../../Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-12, .contenido nav, .contenido nav .guardar {
+  .col-lg-12, .contenido nav, .contenido nav .guardar, .contenido .modal form {
     width: 100%;
   }
 
@@ -8671,20 +8671,26 @@ button {
   overflow-y: scroll;
 }
 /* line 739, ../sass/styles.scss */
+.contenido .overflow {
+  position: relative;
+  display: block;
+  overflow-x: scroll;
+}
+/* line 745, ../sass/styles.scss */
 .contenido table {
   text-align: center;
   vertical-align: middle;
 }
-/* line 742, ../sass/styles.scss */
+/* line 748, ../sass/styles.scss */
 .contenido table th, .contenido table tr, .contenido table td {
   border: 1px solid #9ae3ed;
 }
-/* line 747, ../sass/styles.scss */
+/* line 752, ../sass/styles.scss */
 .contenido table td > img {
   min-height: 25px;
   max-height: 25px;
 }
-/* line 756, ../sass/styles.scss */
+/* line 761, ../sass/styles.scss */
 .contenido .modal .modal-content {
   border: 1px solid #9ae3ed;
   outline: none;
@@ -8692,7 +8698,7 @@ button {
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
-/* line 763, ../sass/styles.scss */
+/* line 768, ../sass/styles.scss */
 .contenido .modal .modal-content a {
   display: inline-block;
   position: absolute;
@@ -8702,22 +8708,22 @@ button {
   opacity: 100;
   z-index: 3;
 }
-/* line 772, ../sass/styles.scss */
+/* line 777, ../sass/styles.scss */
 .contenido .modal .modal-content a:hover {
   color: #4dd5e7;
 }
-/* line 777, ../sass/styles.scss */
+/* line 782, ../sass/styles.scss */
 .contenido .modal .modal-content label {
   padding: 0;
   margin: 0;
   margin-bottom: 0.5rem;
 }
-/* line 783, ../sass/styles.scss */
+/* line 788, ../sass/styles.scss */
 .contenido .modal .modal-footer {
   border-top: 0;
   text-align: center;
 }
-/* line 787, ../sass/styles.scss */
+/* line 792, ../sass/styles.scss */
 .contenido .modal .modal-footer button {
   width: auto;
   height: 2.5rem;
@@ -8726,12 +8732,80 @@ button {
   text-transform: uppercase;
   padding: 0.5rem;
 }
-/* line 798, ../sass/styles.scss */
+/* line 803, ../sass/styles.scss */
 .contenido .modal .modal-footer button img {
   margin-right: 0.5rem;
 }
-
 /* line 809, ../sass/styles.scss */
+.contenido .modal form {
+  padding: 0;
+}
+/* line 816, ../sass/styles.scss */
+.contenido .modal form .guardar {
+  width: auto;
+  height: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+/* line 828, ../sass/styles.scss */
+.contenido .modal form .guardar img {
+  margin-right: 0.5rem;
+}
+
+/* line 839, ../sass/styles.scss */
+.imagenes_lista {
+  display: block;
+  width: 100%;
+}
+/* line 843, ../sass/styles.scss */
+.imagenes_lista li {
+  display: inline-block;
+  max-width: 19%;
+  background-color: #9ae3ed;
+  color: #ffffff;
+  margin-right: 1px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0.5rem;
+  line-height: 0.65rem;
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+}
+/* line 864, ../sass/styles.scss */
+.imagenes_lista li:hover {
+  background-color: #4dd5e7;
+  color: #ffffff;
+}
+/* line 871, ../sass/styles.scss */
+.imagenes_lista .activo {
+  background-color: #4dd5e7;
+}
+
+/* line 877, ../sass/styles.scss */
+.cnt_form_imagenes {
+  width: 100%;
+  height: auto;
+}
+
+/* line 883, ../sass/styles.scss */
+.imagen_destacada {
+  display: block;
+}
+
+/* line 887, ../sass/styles.scss */
+.imagen_1, .imagen_2, .imagen_3, .imagen_4 {
+  display: none;
+}
+
+/* line 896, ../sass/styles.scss */
 .jasny_btn {
   background-color: #fe5f5b;
   width: 2.5rem;
@@ -8743,24 +8817,24 @@ button {
   -moz-transition: all 0.25s ease-in-out;
 }
 @media (max-width: 991px) {
-  /* line 809, ../sass/styles.scss */
+  /* line 896, ../sass/styles.scss */
   .jasny_btn {
     height: 3.333rem;
     width: 3.333rem;
   }
 }
 @media (max-width: 340px) {
-  /* line 809, ../sass/styles.scss */
+  /* line 896, ../sass/styles.scss */
   .jasny_btn {
     height: 2.5rem;
     width: 2.5rem;
   }
 }
-/* line 826, ../sass/styles.scss */
+/* line 913, ../sass/styles.scss */
 .jasny_btn:hover {
   background-color: #4dd5e7;
 }
-/* line 829, ../sass/styles.scss */
+/* line 916, ../sass/styles.scss */
 .jasny_btn span {
   width: 100%;
   height: 100%;
@@ -8769,13 +8843,13 @@ button {
   top: 0;
   left: 0;
 }
-/* line 837, ../sass/styles.scss */
+/* line 924, ../sass/styles.scss */
 .jasny_btn span img {
   height: 50%;
   margin-top: 25%;
 }
 
-/* line 845, ../sass/styles.scss */
+/* line 932, ../sass/styles.scss */
 .jasny_btn2 {
   background-color: #fe5f5b;
   width: 2.5rem;
@@ -8789,24 +8863,24 @@ button {
   -moz-transition: all 0.25s ease-in-out;
 }
 @media (max-width: 991px) {
-  /* line 845, ../sass/styles.scss */
+  /* line 932, ../sass/styles.scss */
   .jasny_btn2 {
     height: 3.333rem;
     width: 3.333rem;
   }
 }
 @media (max-width: 340px) {
-  /* line 845, ../sass/styles.scss */
+  /* line 932, ../sass/styles.scss */
   .jasny_btn2 {
     height: 2.5rem;
     width: 2.5rem;
   }
 }
-/* line 864, ../sass/styles.scss */
+/* line 951, ../sass/styles.scss */
 .jasny_btn2:hover {
   background-color: #4dd5e7;
 }
-/* line 867, ../sass/styles.scss */
+/* line 954, ../sass/styles.scss */
 .jasny_btn2 span {
   background-color: #fe5f5b;
   width: 2.5rem;
@@ -8815,26 +8889,26 @@ button {
   text-align: center;
 }
 @media (max-width: 991px) {
-  /* line 867, ../sass/styles.scss */
+  /* line 954, ../sass/styles.scss */
   .jasny_btn2 span {
     height: 3.333rem;
     width: 3.333rem;
   }
 }
 @media (max-width: 340px) {
-  /* line 867, ../sass/styles.scss */
+  /* line 954, ../sass/styles.scss */
   .jasny_btn2 span {
     height: 2.5rem;
     width: 2.5rem;
   }
 }
-/* line 884, ../sass/styles.scss */
+/* line 971, ../sass/styles.scss */
 .jasny_btn2 span img {
   height: 50%;
   margin-top: 25%;
 }
 
-/* line 893, ../sass/styles.scss */
+/* line 980, ../sass/styles.scss */
 .thumbnail {
   text-align: center;
   display: block;
@@ -8846,11 +8920,11 @@ button {
   width: 200px;
 }
 
-/* line 908, ../sass/styles.scss */
+/* line 995, ../sass/styles.scss */
 footer {
   text-align: center;
 }
-/* line 911, ../sass/styles.scss */
+/* line 998, ../sass/styles.scss */
 footer p {
   display: block;
   padding: 0rem 0.5rem 0rem 0.5rem;
@@ -8858,23 +8932,33 @@ footer p {
   font-weight: 200;
   font-color: #313131;
 }
-/* line 922, ../sass/styles.scss */
+/* line 1009, ../sass/styles.scss */
 footer a {
   text-decoration: underline;
 }
-/* line 926, ../sass/styles.scss */
+/* line 1013, ../sass/styles.scss */
 footer img {
   width: 100px;
   margin-top: 5rem;
 }
 @media (max-width: 340px) {
-  /* line 926, ../sass/styles.scss */
+  /* line 1013, ../sass/styles.scss */
   footer img {
     width: 50px;
   }
 }
-/* line 934, ../sass/styles.scss */
+/* line 1021, ../sass/styles.scss */
 footer img:last-of-type {
   width: 50px;
   margin-top: 0.5rem;
+}
+
+/* line 1034, ../sass/styles.scss */
+table button {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  display: inline-block;
+  float: left;
+  margin: 1px;
 }
